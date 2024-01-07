@@ -228,3 +228,48 @@ color:#F00
   justify-content: center;
 }
 /* next Offer section off */
+
+/* Holiday Sale Offer on */
+.holiday_offer{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.holiday_offer h1{
+  color:#000;
+  margin: 10px 0 25px;
+}
+/* Holiday sale Img card */
+.holiday_offer_img{
+  min-width: 1550px;
+  height: 720px;
+  position: relative;
+  margin-bottom: 120px;
+}
+.hr{
+  width: 1300px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.gift_box{
+  position: absolute;
+  bottom:-5px;
+  left: 95px;
+}
+.woman{
+  position: absolute;
+  bottom:226px;
+  right: 125px;
+}
+.discount{
+ position: absolute;
+ right:420px;
+ top:100px;
+ z-index: 1;
+}
+/* Holiday sale offer off */
