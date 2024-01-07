@@ -14,7 +14,7 @@ h1{
   font-family: 'Merriweather', serif;
   color: #FFF;
   text-align: center;
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 900;
   line-height: 95px; 
 }
@@ -99,9 +99,28 @@ header div h3{
 /* header part end */
 /* Main part on */
 /* Discount Section */
+.discount_section{
+width: 60%;
+margin:0 auto 140px;
 
+}
+.discount h1{
+  color:#F00;
+  font-family: 'Inter', sans-serif; ;
+}
+.discount h3{
+  text-align: center;
+  font-size: 45px;
+  margin-bottom:50px
+}
+.discount h6{
+  text-align: center;
+}
 
-
+.discount_img{
+display: flex;
+justify-content: center;
+}
 /* Discount section  end */
 /* Welcome to Midnight Party card */
 .celebration_card{
