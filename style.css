@@ -1,0 +1,135 @@
+/* universal part */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
+
+ *{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+.container{
+  width:80%;
+  margin: auto;
+}
+h1{
+  font-family: 'Merriweather', serif;
+  color: #FFF;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 95px; 
+}
+
+h2{
+  color: #F00;
+  font-family: 'Inter', sans-serif;
+  font-size: 85px;
+  font-weight: 700;
+}
+h3{
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 56px; 
+}
+h5{
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; 
+  text-transform: capitalize;
+}
+h6{
+  color: #F00;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+p{
+  color: #07021199;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+a{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 700;
+display: block;
+text-decoration: none;
+}
+button{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background: #F00;
+  padding:15px 30px;
+}
+/* universal part done */
+/* Header part */
+header{
+  background-image: linear-gradient(0deg, #000, transparent),url('resources/Banner\ Image.png');
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin:50px 0 120px ;
+}
+header div{
+  width:60%;
+  margin:0 auto ;
+  
+}
+header div h1{
+  text-align: center;
+  margin-top: 30px;
+}
+header div h3{
+  color:#fff;
+  text-align: center;
+}
+/* header part end */
+/* Main part on */
+/* Discount Section */
+
+
+
+/* Discount section  end */
+/* Welcome to Midnight Party card */
+.celebration_card{
+  background: linear-gradient(90deg, black, transparent), url('resources/Vectorrr.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:30px;
+  height: 600px;
+  border-radius: 10px;
+  margin-bottom: 120px;
+}
+.celebration_title{
+  width: 50%;
+}
+.celebration_title p{
+  color: #ffffffcc;
+  padding-left: 30px;
+  margin: 20px;
+}
+.celebration_title a{
+  padding-left: 30px;
+  margin-top: 50px;
+}
+.celebration_img{
+  width: 30%;
+}
+/* Welcome to Midnight Party card end */
