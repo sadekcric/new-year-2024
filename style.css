@@ -18,7 +18,6 @@ h1{
   font-weight: 900;
   line-height: 95px; 
 }
-
 h2{
   color: #F00;
   font-family: 'Inter', sans-serif;
@@ -71,6 +70,11 @@ button{
   background: #F00;
   padding:15px 30px;
   border: none;
+}
+button:hover{
+  background-color: #c21853;
+  transition: 0.5s;
+  transform: translateY(-5px)
 }
 span{
   color:#F00
@@ -163,6 +167,11 @@ justify-content: center;
 .celebration_title a{
   padding-left: 30px;
   margin-top: 50px;
+}
+.join_now:hover{
+  color:red;
+  transform: translateY(-5px);
+  transition: 0.5s;
 }
 .celebration_img{
   width: 30%;
@@ -344,6 +353,10 @@ gap:50px
   width: 200px;
   color:#fff;
 }
+.input_div input[type=submit]:hover{
+  background-color: #c21853;
+  transition: 0.5s;
+}
 /* Subscribe Newsletter section done*/
 /* Main section Done */
 
@@ -386,6 +399,15 @@ gap:50px
     width: 90%;
     display: flex;
     justify-content: space-between;
+  }
+  .Unsubscribe{
+    background: #fff;
+    color:#000;
+    cursor:pointer;
+  }
+  .Unsubscribe:hover{
+    color:#fff;
+    transition: 0.5s;
   }
   
 /* footer section off */
