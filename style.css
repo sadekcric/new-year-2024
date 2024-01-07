@@ -118,16 +118,16 @@ width: 60%;
 margin:0 auto 120px;
 
 }
-.discount h1{
+.discount_1 h1{
   color:#F00;
   font-family: 'Inter', sans-serif; ;
 }
-.discount h3{
+.discount_1 h3{
   text-align: center;
   font-size: 45px;
   margin-bottom:50px
 }
-.discount h6{
+.discount_1 h6{
   text-align: center;
 }
 
