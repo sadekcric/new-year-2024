@@ -27,7 +27,7 @@ h2{
 }
 h3{
   font-family: 'Inter', sans-serif;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 600;
   line-height: 56px; 
 }
@@ -273,3 +273,26 @@ color:#F00
  z-index: 1;
 }
 /* Holiday sale offer off */
+
+/* Portfolio section start */
+.portfolio_title_div{
+ max-width:60%;
+}
+.portfolio_title_div h3{
+  font-family: 'Merriweather', serif;
+}
+.portfolio{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+}
+.portfolio_1, .portfolio_2{
+display: flex;
+justify-content: center;
+gap:50px
+}
+.portfolio img{
+  width: 510px;
+}
