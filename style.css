@@ -309,6 +309,13 @@ gap:50px
 }
 .portfolio img{
   width: 510px;
+  border-radius: 10px;
+}
+.portfolio img:hover{
+  transform: translateY(-10px);
+  transition: 0.5s;
+  box-shadow: 10px 10px 20px #c21853;
+
 }
 /* Portfolio section end */
 
