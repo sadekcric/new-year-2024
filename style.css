@@ -220,12 +220,13 @@ justify-content: center;
   display: table;
   clear: both;
 }
-.comming_soon_part, .offer_2024{
-  max-width: 400px;
-  padding:10px;
+.comming_soon_part{
+  max-width: 500px;
+  padding-right:30px;
 }
 .comming_soon_part h3{
-  font-family: 'Merriweather', serif ;
+  font-family: 'Merriweather', serif;
+  margin: 20px 0;
 }
 .offer_img_border{
   width:100%;
@@ -237,12 +238,15 @@ justify-content: center;
   align-items: center;
 }
 .offer_2024{
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   gap:50px;
+  padding-left: 30px;
 }
 .offer_2024 h3{
-color:#F00
+color:#F00;
+margin-bottom: 20px;
 }
 .img_new_year{
   display: flex;
@@ -298,9 +302,11 @@ color:#F00
 /* Portfolio section start */
 .portfolio_title_div{
  max-width:60%;
+ margin-bottom: 50px;
 }
-.portfolio_title_div h3, .subscribe h3{
+.portfolio_title_div h3{
   font-family: 'Merriweather', serif;
+  margin: 20px 0;
 }
 .clumn{
   float: left;
@@ -316,7 +322,9 @@ color:#F00
   display: table;
   clear: both;
 }
-
+.portfolio_section{
+  margin: 120px 0;
+}
 .clumn img:hover{
   transform: translateY(-10px);
   transition: 0.5s;
@@ -344,6 +352,9 @@ color:#F00
   align-items: center;
   gap:20px;
   
+}
+.subscribe h3{
+  font-family: 'Merriweather', serif;
 }
 .input_div{
   width: 650px;
