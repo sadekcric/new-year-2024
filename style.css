@@ -435,4 +435,278 @@ margin-bottom: 20px;
   }
   
 /* footer section off */
+
+
+@media screen and (max-width:660px) {
+  
+ .container{
+    width: 95%;
+  }
+  .next_offer_row,
+  header {
+  margin: 10px 0 50px;
+  }
+  p{
+    text-align: justify;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  h1{
+    font-size: 3em;
+  }
+  header div h1 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+  }
+  .portfolio_title_div,
+  .holiday_offer,
+  .date_time_section,
+  .date_time,
+  .celebration_title,
+  .discount_section, 
+  header div {
+     width: 100%;
+     max-width: none;
+}
+.discount_section{
+  margin: 0 auto 80px;
+}
+
+ .celebration_card{
+   flex-direction: column;
+   margin-bottom: 50px;
+ }
+ .celebration_img img{
+   display: none;
+ }
+ .date_time_section{
+  margin-bottom: 0;
+ }
+ .holiday_offer_img{
+  display: none;
+ }
+ .comming_soon_part h3,
+ .holiday_offer h1 {
+  margin: 0px 0 10px;
+}
+.next_offer_row {
+  flex-direction: column;
+}
+.address,
+.offer_2024 ,
+.comming_soon_part {
+  width: 100%;
+  max-width: none;
+  padding-right: 0;
+}
+.img_new_year img{
+  width: 50%;
+}
+.offer_img_border{
+  width: 100%;
+  padding: 15px;
+  border-radius: 50%;
+  border: 10px solid red;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.next_offer_clumn {
+  float: none;
+  width: 100%;
+  padding: 10px;
+}
+/* .portfolio_section */
+.portfolio_section{
+  margin: 50px 0;
+}
+.portfolio_title_div{
+  margin-bottom: 20px;
+}
+.portfolio_title_div h3 {
+  margin: 10px 0;
+}
+.subscribe_section {
+  height: auto;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+.subscribe img{
+  display: none;
+}
+.subscribe {
+  max-width: none;
+  gap: 20px;
+}
+.input_div{
+  width: 100%;
+  text-align: center;
+}
+.subscribe_section{
+  padding:50px 0 10px;
+}
+.input_div input{
+  padding:15px;
+}
+.input_div input[type=email] {
+  width: 220px;
+}
+.input_div input[type=submit] {
+  width: 115px;
+}
+.footer_div {
+  width: 100%;
+  flex-direction: column-reverse;
+}
+.number_div{
+  margin-bottom: 30px;
+}
+.number h6{
+  width: 90%;
+}
+.number img{
+  width:auto;
+}
+.footer_address{
+  margin:auto;
+  width:80%;
+}
+.social_media {
+  margin-top: 25px;
+}
+footer{
+  padding: 35px 0;
+  height: auto;
+}
+button {
+  font-size: 14px;
+  padding: 0px 12px;
+}
+.copyright h6{
+  font-size: 18px;
+}
+}
+
+ /* Medium Device */
+@media screen and (min-width:661px) and (max-width:1020px) {
+  
+ .container{
+    width: 95%;
+  }
+  .next_offer_row,
+  header {
+    margin: 10px 0 50px;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  h1{
+    font-size: 3em;
+  }
+  img{
+    width: 100%;
+  }
+  header div h1 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .portfolio_title_div,
+  .holiday_offer,
+  .date_time_section,
+  .date_time,
+  .celebration_title,
+  .discount_section,
+  header div {
+  width: 100%;
+  max-width: none;
+}
+.discount_section{
+  margin: 0 auto 80px;
+}
+.celebration_card{
+  flex-direction: column;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap:0;
+  margin-bottom: 50px;
+}
+.celebration_title h1{
+  line-height: normal;
+}
+.celebration_img{
+  text-align: center;
+}
+.celebration_img img{
+  /* display: none; */
+  width: 70%;
+}
+.date_time_section{
+  margin-bottom: 0;
+ }
+ .holiday_offer_img{
+  display: none;
+ }
+ .holiday_offer h1 {
+  margin: 0px 0 10px;
+}
+.img_new_year img{
+  width: 50%;
+}
+/* .portfolio_section */
+
+.portfolio_section{
+  margin: 50px 0;
+}
+.portfolio_title_div{
+  margin-bottom: 20px;
+}
+.portfolio_title_div h3 {
+  margin: 10px 0;
+}
+.subscribe img{
+  display: none;
+}
+.subscribe_section {
+  height: auto;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+.subscribe {
+  max-width: none;
+  gap: 20px;
+}
+.input_div {
+  width: 100%;
+  margin: 50px 0 0;
+  text-align: center;
+}
+.input_div input{
+  padding:30px;
+}
+.number img{
+  width:auto;
+}
+footer{
+  padding: 35px 0;
+  height: auto;
+}
+.social_media {
+  margin-top: 25px;
+}
+.copyright{
+  align-items: center;
+}
+}
+
+@media screen and (max-width:1745px) {
+  .holiday_offer_img{
+    display: none;
+   }
+
+}
 /* tata bye bye */
