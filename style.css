@@ -444,7 +444,7 @@ margin-bottom: 20px;
   }
   .next_offer_row,
   header {
-  margin: 10px 0 50px;
+  margin: 10px 0 100px;
   }
   p{
     text-align: justify;
@@ -473,18 +473,17 @@ margin-bottom: 20px;
      max-width: none;
 }
 .discount_section{
-  margin: 0 auto 80px;
+  margin: 0 auto 100px;
 }
 
  .celebration_card{
    flex-direction: column;
-   margin-bottom: 50px;
  }
  .celebration_img img{
    display: none;
  }
  .date_time_section{
-  margin-bottom: 0;
+  margin: 100px 0;
  }
  .holiday_offer_img{
   display: none;
@@ -522,7 +521,7 @@ margin-bottom: 20px;
 }
 /* .portfolio_section */
 .portfolio_section{
-  margin: 50px 0;
+  margin: 100px 0;
 }
 .portfolio_title_div{
   margin-bottom: 20px;
@@ -533,7 +532,7 @@ margin-bottom: 20px;
 .subscribe_section {
   height: auto;
   padding: 50px 0;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .subscribe img{
   display: none;
@@ -599,7 +598,7 @@ button {
   }
   .next_offer_row,
   header {
-    margin: 10px 0 50px;
+    margin: 10px 0 120px;
   }
   h3 {
     font-size: 2em;
@@ -625,7 +624,7 @@ button {
   max-width: none;
 }
 .discount_section{
-  margin: 0 auto 80px;
+  margin: 0 auto 120px;
 }
 .celebration_card{
   flex-direction: column;
@@ -646,7 +645,7 @@ button {
   width: 70%;
 }
 .date_time_section{
-  margin-bottom: 0;
+  margin-bottom: 120px;
  }
  .holiday_offer_img{
   display: none;
@@ -660,7 +659,7 @@ button {
 /* .portfolio_section */
 
 .portfolio_section{
-  margin: 50px 0;
+  margin: 120px 0;
 }
 .portfolio_title_div{
   margin-bottom: 20px;
@@ -674,7 +673,7 @@ button {
 .subscribe_section {
   height: auto;
   padding: 50px 0;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 .subscribe {
   max-width: none;
