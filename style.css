@@ -8,6 +8,7 @@
 }
 .container{
   width:80%;
+  max-width: 1910px;
   margin: auto;
 }
 h1{
@@ -437,7 +438,7 @@ margin-bottom: 20px;
 /* footer section off */
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:620px) {
   
  .container{
     width: 95%;
@@ -475,8 +476,7 @@ margin-bottom: 20px;
 .discount_section{
   margin: 0 auto 100px;
 }
-
- .celebration_card{
+.celebration_card{
    flex-direction: column;
  }
  .celebration_img img{
@@ -484,6 +484,9 @@ margin-bottom: 20px;
  }
  .date_time_section{
   margin: 100px 0;
+ }
+ .date_time button{
+  padding:15px 25px;
  }
  .holiday_offer_img{
   display: none;
@@ -591,7 +594,7 @@ button {
 }
 
  /* Medium Device */
-@media screen and (min-width:661px) and (max-width:1020px) {
+@media screen and (min-width:621px) and (max-width:1020px) {
   
  .container{
     width: 95%;
